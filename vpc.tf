@@ -65,12 +65,10 @@ variable "public_subnet_assign_ipv6_address_on_creation" {
 }
 variable "redshift_subnet_assign_ipv6_address_on_creation" {
   description = "Assign IPv6 address on redshift subnet, must be disabled to change IPv6 CIDRs. This is the IPv6 equivalent of map_public_ip_on_launch"
-  type        = "bool"
 }
 
 variable "vpn_gateway_az" {
   description = "The Availability Zone for the VPN Gateway"
-  type        = "string"
 }
 
 }
